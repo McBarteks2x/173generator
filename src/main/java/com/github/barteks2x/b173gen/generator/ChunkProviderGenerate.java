@@ -216,7 +216,7 @@ public class ChunkProviderGenerate extends ChunkGenerator {
                             topBlock = BiomeOld.top(biome);
                             fillerBlock = BiomeOld.filler(biome);
                             if(gravel) {
-                                topBlock = AIR;
+                                topBlock = GRAVEL;
                                 fillerBlock = GRAVEL;
                             }
                             if(sand) {

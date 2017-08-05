@@ -29,7 +29,7 @@ class BukkitChestStub implements Chest {
     }
 
     //UNIMPLEMENTED:
-
+    
     @Override
     public Inventory getBlockInventory() {
         throw new UnsupportedOperationException();
@@ -154,5 +154,21 @@ class BukkitChestStub implements Chest {
     public void removeMetadata(String metadataKey, Plugin owningPlugin) {
         throw new UnsupportedOperationException();
     }
+
+	@Override
+	public String getLock() {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public boolean isLocked() {
+		throw new UnsupportedOperationException();
+	}
+
+	@Override
+	public void setLock(String arg0) {
+		throw new UnsupportedOperationException();
+		
+	}
 
 }
