@@ -1,4 +1,4 @@
-##Beta 1.7.3 world generator
+## Beta 1.7.3 world generator
 This plugin generates beta 1.7.3 terrain.
 
 [Bukkit dev page](http://dev.bukkit.org/server-mods/b173gen/)
@@ -11,3 +11,5 @@ worlds:
           generator: 173generator
 ```
 To use it with a multi-world plugin, follow the instructions for that plugin.
+
+Originally made by Barteks2x, forked by takidelfin to continue this project as author abandoned it.
